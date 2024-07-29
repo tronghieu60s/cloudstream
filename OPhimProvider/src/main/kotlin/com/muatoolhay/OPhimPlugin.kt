@@ -1,4 +1,4 @@
-package com.example
+package com.muatoolhay
 
 import com.lagradost.cloudstream3.plugins.CloudstreamPlugin
 import com.lagradost.cloudstream3.plugins.Plugin
@@ -14,11 +14,6 @@ class TestPlugin: Plugin() {
     override fun load(context: Context) {
         activity = context as AppCompatActivity
         // All providers should be added in this manner
-        registerMainAPI(ExampleProvider(this))
-
-        openSettings = { ctx ->
-            val frag = BlankFragment(this)
-            frag.show(activity!!.supportFragmentManager, "Frag")
-        }
+        registerMainAPI(OPhimProvider(this))
     }
 }
