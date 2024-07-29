@@ -1,0 +1,21 @@
+[
+    {
+        "iconUrl": "https://ophim17.cc/logo-ophim-6.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/user/repo",
+        "fileSize": 20345,
+        "status": 1,
+        "language": "vi",
+        "authors": [
+            "MuaToolHay"
+        ],
+        "tvTypes": [
+            "Movie"
+        ],
+        "version": 1,
+        "internalName": "OPhimProvider",
+        "description": "MuaToolHay",
+        "url": "https://raw.githubusercontent.com/user/repo/builds/OPhimProvider.cs3",
+        "name": "OPhimProvider"
+    }
+]
